@@ -515,7 +515,7 @@
     </partitioning>
     <calculation>
       <field_name>c</field_name>
-      <calc_type>ADD</calc_type>
+      <calc_type>SUBTRACT</calc_type>
       <field_a>a</field_a>
       <field_b>b</field_b>
       <field_c />
