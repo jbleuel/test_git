@@ -437,6 +437,45 @@
         <master>N</master>
         <sslMode>N</sslMode>
       </slaveserver>
+      <slaveserver>
+        <name>Node 1</name>
+        <hostname>localhost</hostname>
+        <port>8081</port>
+        <webAppName />
+        <username>cluster</username>
+        <password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password>
+        <proxy_hostname />
+        <proxy_port />
+        <non_proxy_hosts />
+        <master>N</master>
+        <sslMode>N</sslMode>
+      </slaveserver>
+      <slaveserver>
+        <name>Node 2</name>
+        <hostname>localhost</hostname>
+        <port>8082</port>
+        <webAppName />
+        <username>cluster</username>
+        <password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password>
+        <proxy_hostname />
+        <proxy_port />
+        <non_proxy_hosts />
+        <master>N</master>
+        <sslMode>N</sslMode>
+      </slaveserver>
+      <slaveserver>
+        <name>Pentaho server</name>
+        <hostname>localhost</hostname>
+        <port>8080</port>
+        <webAppName>pentaho</webAppName>
+        <username>admin</username>
+        <password>Encrypted 2be98afc86aa7f2e4bb18bd63c99dbdde</password>
+        <proxy_hostname />
+        <proxy_port />
+        <non_proxy_hosts />
+        <master>N</master>
+        <sslMode>N</sslMode>
+      </slaveserver>
     </slaveservers>
     <clusterschemas>
     </clusterschemas>
@@ -558,7 +597,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>528</xloc>
+      <xloc>544</xloc>
       <yloc>96</yloc>
       <draw>Y</draw>
     </GUI>
